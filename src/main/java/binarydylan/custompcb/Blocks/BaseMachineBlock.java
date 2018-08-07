@@ -18,6 +18,6 @@ public class BaseMachineBlock extends Block{
         setRegistryName("machineblock");
 
         // This one is self explanatory :P
-        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        setCreativeTab(CreativeTabs.REDSTONE);
     }
 }

@@ -10,5 +10,8 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder(Reference.MODID + ":" + "machineBlock")
     // Creates a random test machine for testing and more testing, this is where we define our blocks/machines
     public static BaseMachineBlock testMachine;
+
+    @GameRegistry.ObjectHolder(Reference.MODID + ":" + "smeltifier")
+    public static Smeltifier smeltifier;
 }
 
