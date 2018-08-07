@@ -1,0 +1,73 @@
+Machine and item name ideas, for maximum ridiculousness.
+
+Furnace = Smeltifier
+Crusher = Crushinator
+Fortune machine = ???
+Mob grinder = Mechanical Slayer
+Crystal growth thing = Saturating Multiplizer
+Dragon's breath generator = Stinky Extractor
+
+
+More later perhaps?
+
+
+
+
+
+
+
+Also, we should discuss machine components. 
+
+So I'll start listing things that I think each machine would need.
+
+Furnace: Power Input Component (fuelbox, electrical heating coil, EU heating coil, etc), Casing, Insulation.
+Crusher: Power Input Component, Grinding head, Casing
+Fortune Machine: Power Input Component, Fluid Tank, Grinding Head, Knowledge Condenser, Casing
+Mob Grinder: Power Input Component, Fluid Tank, Guillotine Head, Casing
+Crystal Growth Thing: Power Input Component, Fluid Tank, Agitator, Casing
+Dragon's breath generator: Power Input Component, Dragon Head, Fluid Tank, Casing
+Fluid Saturator: Agitator, Power Input Component, Fluid Tank, Casing, Stopper
+
+Original machine ideas:
+
+Fluid Saturator: Combines water with certain materials in order to duplicate them with the crystal growth thing.
+    General setup would be Saturator-> Crystal Grower -> Fortune Machine
+
+
+
+
+Planned modifier blocks, and how they may work:
+Each modifier block can be made from any of the mod's materials.
+Each modifier has a small effect, but is able to be multiplied by up to 26.
+Each modifier is made by placing the modifier item into a casing in-world. The material of the casing determines the effectiveness of some modifiers.
+
+
+Speed modifier
+Efficiency modifier
+Daisy chain modifier (allows connected machines to share a single power input, and serves as a power input)
+Interfacing modifier (allows the player to right-click a casing block and access connected machine GUI's via a tinkers' esque tab system)
+Overproduction modifier (allows a greater secondary output chance from machines that have that function)
+Fluid Tank modifier (expands fluid capacity of connected machines)
+
+
+
+Machine Components. Each machine will have a machine specific component.
+Casing. The basic block that contains a machine. Can also be placed in-world to contain a singular itemstack (used for modifiers).
+Power Input Component. This determines the type of power that a machine can receive. Fuelbox uses furnace fuels, Electrical and EU coils would use Forge Energy and EU respectively
+Insulation. Furnace only. Determines the efficiency of smelting. Better insulation is better at retaining heat.
+Grinding Head. Fortune Machine and Crusher only. Determines efficiency of their respective machines.
+Knowledge Condenser. Fortune Machine Only. Materials determine how much the maximum fortune amount will be, on a sliding scale. Some things will have a maximum fortune amount.
+Fluid Tank. Can be placed in-world, capacity determined by materials used. Determines machines' fluid capacity. 
+Agitator. Crystal Grower Only. materials determine efficiency of machine.
+Stopper. Fluid Saturator Only. Determines efficiency/loss in fluid production.
+Power Output Component. Any power-generating machine. Determines the type of power output by this machine, as well as affecting efficiency.
+In-line Processing Component. Any machine that simply uses an item. Allows multiple operations to occur at once, at the cost of power. Materials determine amount.
+
+
+
+
+
+
+
+WE NEED TO DISCUSS POWER GENERATION. All of the machines would be usable with just coal, but we need to come up with something moderately interesting for 
+creating FE/EU, or at least a solution of some sort.
