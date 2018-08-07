@@ -61,6 +61,7 @@ Fluid Tank. Can be placed in-world, capacity determined by materials used. Deter
 Agitator. Crystal Grower Only. materials determine efficiency of machine.
 Stopper. Fluid Saturator Only. Determines efficiency/loss in fluid production.
 Power Output Component. Any power-generating machine. Determines the type of power output by this machine, as well as affecting efficiency.
+In-line Processing Component. Any machine that simply uses an item. Allows multiple operations to occur at once, at the cost of power. Materials determine amount.
 
 
 
