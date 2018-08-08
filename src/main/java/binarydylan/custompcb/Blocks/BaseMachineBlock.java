@@ -1,5 +1,6 @@
 package binarydylan.custompcb.Blocks;
 
+import binarydylan.custompcb.CustomPCB;
 import binarydylan.custompcb.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,6 +19,6 @@ public class BaseMachineBlock extends Block{
         setRegistryName("machineblock");
 
         // This one is self explanatory :P
-        setCreativeTab(CreativeTabs.REDSTONE);
+        setCreativeTab(CustomPCB.creativeTab);
     }
 }

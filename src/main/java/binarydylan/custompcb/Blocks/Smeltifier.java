@@ -1,5 +1,7 @@
 package binarydylan.custompcb.Blocks;
 
+import binarydylan.custompcb.CreativeTabs.CustomPCBTab;
+import binarydylan.custompcb.CustomPCB;
 import binarydylan.custompcb.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -10,7 +12,7 @@ public class Smeltifier extends Block {
         super(Material.ROCK);
         setUnlocalizedName(Reference.MODID + ".smeltifier");
         setRegistryName("smeltifier");
-        setCreativeTab(CreativeTabs.REDSTONE);
+        setCreativeTab(CustomPCB.creativeTab);
 
     }
 }

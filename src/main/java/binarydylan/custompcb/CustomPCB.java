@@ -1,5 +1,6 @@
 package binarydylan.custompcb;
 
+import binarydylan.custompcb.CreativeTabs.CustomPCBTab;
 import binarydylan.custompcb.init.ModRecipes;
 import binarydylan.custompcb.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +17,8 @@ public class CustomPCB {
 	
 	@Instance
 	public static CustomPCB instance;
+
+	public static CustomPCBTab creativeTab = new CustomPCBTab();
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;

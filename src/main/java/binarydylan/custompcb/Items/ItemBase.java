@@ -11,7 +11,7 @@ public class ItemBase extends Item implements IHasModel {
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS); //TEMPORARY TAB
+		setCreativeTab(CustomPCB.creativeTab); //TEMPORARY TAB
 		
 		ModItems.ITEMS.add(this);
 		
