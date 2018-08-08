@@ -5,20 +5,15 @@ import binarydylan.custompcb.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 
 public class BaseMachineBlock extends Block{
-    public BaseMachineBlock() {
 
-        // Sets block Material (can change to whatever you feel like)
-        super(Material.ROCK);
-
-        // Used for localization in the lang file
-        setUnlocalizedName(Reference.MODID + ".machineBlock");
-
-        // What the block is registered as in the mod
-        setRegistryName("machineblock");
-
-        // This one is self explanatory :P
+    protected String name;
+    public BaseMachineBlock(Material material, String name) {
+        super(material);
+        this.name = name;
+        setUnlocalizedName(name);
+        setRegistryName(name);
         setCreativeTab(CustomPCB.creativeTab);
-    }
-}
+    }}

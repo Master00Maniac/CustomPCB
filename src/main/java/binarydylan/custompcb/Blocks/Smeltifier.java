@@ -7,12 +7,11 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class Smeltifier extends Block {
-    public Smeltifier() {
-        super(Material.ROCK);
-        setUnlocalizedName(Reference.MODID + ".smeltifier");
-        setRegistryName("smeltifier");
-        setCreativeTab(CustomPCB.creativeTab);
+public class Smeltifier extends BaseMachineBlock {
 
+    public Smeltifier(String name) {
+        super(Material.ROCK, name);
+        setHardness(5f);
+        setResistance(7f);
     }
 }

@@ -1,7 +1,6 @@
 package binarydylan.custompcb;
 
 import binarydylan.custompcb.CreativeTabs.CustomPCBTab;
-import binarydylan.custompcb.init.ModRecipes;
 import binarydylan.custompcb.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -24,8 +23,8 @@ public class CustomPCB {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-    public void init(FMLPreInitializationEvent event) {
-        ModRecipes.init();  // Registers all of the mods recipes defined in the ModRecipes class
+    public void preInit(FMLPreInitializationEvent event) {
+
     }
     
 	@EventHandler
@@ -35,7 +34,7 @@ public class CustomPCB {
 	}
 	
 	@EventHandler
-	public static void Postinit(FMLPostInitializationEvent event)
+	public static void postInit(FMLPostInitializationEvent event)
 	{
 		
 		
