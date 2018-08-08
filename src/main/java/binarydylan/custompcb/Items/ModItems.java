@@ -12,5 +12,6 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item SINISTER_ALLOY = new ItemBase("sinister_alloy");
+	public static final Item ENLIGHTENED_ALLOY = new ItemBase("enlightened_alloy");
 	
 }
